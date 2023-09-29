@@ -15,7 +15,6 @@ dependencies:
   plugin_platform_interface: ^2.1.4
   ffi: ^2.0.1
   path: ^1.8.2
-  win32: '^5.0.2'
 
 dev_dependencies:
   lints: ^2.0.1
@@ -38,8 +37,6 @@ flutter:
         pluginClass: FilePickerWeb
         fileName: _internal/file_picker_web.dart
       macos:
-        default_package: file_picker
-      windows:
         default_package: file_picker
       linux:
         default_package: file_picker
